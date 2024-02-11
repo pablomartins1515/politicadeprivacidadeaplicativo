@@ -84,7 +84,7 @@ export default function Faq() {
                         <b>Terceiro:</b> Pessoa ou entidade que não participa diretamente em um contrato, em um ato jurídico
                         ou em um negócio, ou que, para além das partes envolvidas, pode ter interesse num processo jurídico.<br />
                         <b>Usuários (ou "Usuário", quando individualmente considerado):</b>  todas as pessoas naturais que utilizarem
-                        o serviço Aplicativo e site do PERSONAL PERFEITO.<br />
+                        o serviço Aplicativo e site do CONSULTA FIPE PLACA.<br />
 
                       </text>
 
@@ -97,7 +97,7 @@ export default function Faq() {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-zinc-100 px-4 py-2 text-left text-sm font-medium text-gray-700 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                      <text>Por que é importante consultar?</text>
+                      <text>4. Por que é importante consultar?</text>
                       <ChevronUpIcon
                         className={`${open ? 'rotate-180 transform' : ''
                           } h-5 w-5 text-gray-700`}
@@ -115,7 +115,7 @@ export default function Faq() {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-zinc-100 px-4 py-2 text-left text-sm font-medium text-gray-700 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                      <text>4. Descrição do serviço </text>
+                      <text>5. Descrição do serviço </text>
                       <ChevronUpIcon
                         className={`${open ? 'rotate-180 transform' : ''
                           } h-5 w-5 text-gray-700`}
@@ -133,7 +133,7 @@ export default function Faq() {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-zinc-100 px-4 py-2 text-left text-sm font-medium text-gray-700 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                      <text>5. Agentes de tratamento</text>
+                      <text>6. Agentes de tratamento</text>
                       <ChevronUpIcon
                         className={`${open ? 'rotate-180 transform' : ''
                           } h-5 w-5 text-gray-700`}
@@ -141,9 +141,9 @@ export default function Faq() {
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                       <text>
-                        5.1. A quem compete as decisões referentes ao tratamento de dados pessoais realizado
+                        7. A quem compete as decisões referentes ao tratamento de dados pessoais realizado
                         no serviço CONSULTA PLACA FIPE(Controlador)? <br />
-                        Para o serviço Aplicativo PERSONAL PERFEITO, as decisões referentes ao tratamento
+                        Para o serviço Aplicativo CONSULTA FIPE PLACA, as decisões referentes ao tratamento
                         de dados pessoais são de responsabilidade da EMPRESA I9Ativa S.A. Endereço: Rua José do
                         Egito n° 82  - São Raimundo das Mangabeiras - MA - CEP 65.840-000. Telefone: +55 (99) 9 84574733.
                       </text>
@@ -159,7 +159,7 @@ export default function Faq() {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-zinc-100 px-4 py-2 text-left text-sm font-medium text-gray-700 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                      <text>6. Quais são as leis e normativos aplicáveis a esse Termo?</text>
+                      <text>8. Quais são as leis e normativos aplicáveis a esse Termo?</text>
                       <ChevronUpIcon
                         className={`${open ? 'rotate-180 transform' : ''
                           } h-5 w-5 text-gray-700`}
